@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ADDNEWUSER</class>
+ <widget class="QWidget" name="ADDNEWUSER">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>520</width>
+    <height>344</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>300</y>
+     <width>37</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="images.qrc">:/images/HBL-Logo.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="hblbanklogo">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>10</y>
+     <width>141</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+background-color:rgb(7, 179, 168);
+
+    font-size: 35px;
+    font: 800 14pt &quot;Gill Sans&quot;;
+    color: white;
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>  HBL BANK</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::TextFormat::PlainText</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>310</y>
+     <width>31</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(3, 148, 105);
+ font: 800 5pt &quot;Gill Sans&quot;;
+color:black;
+</string>
+   </property>
+   <property name="text">
+    <string>back</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>624</width>
+     <height>344</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="images.qrc">:/images/Screenshot 2025-03-19 202201 (1).png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>268</x>
+     <y>140</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(7, 179, 168);
+border-color: black;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>268</x>
+     <y>180</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(7, 179, 168);
+border-color: black;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_5">
+   <property name="geometry">
+    <rect>
+     <x>268</x>
+     <y>100</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(7, 179, 168);
+border-color: black;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>96</y>
+     <width>159</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+background-color:rgb(7, 179, 168);
+border-color: rgb(0, 0, 0);
+    font-size: 35px;
+  font: 700 9pt &quot;Segoe UI&quot;;
+    color: white;
+}
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>  ENTER YOUR NAME:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>159</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+background-color:rgb(7, 179, 168);
+border-color: rgb(0, 0, 0);
+    font-size: 35px;
+  font: 700 9pt &quot;Segoe UI&quot;;
+    color: white;
+}
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>  ENTER YOUR EMAIL:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>180</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+background-color:rgb(7, 179, 168);
+border-color: rgb(0, 0, 0);
+    font-size: 35px;
+  font: 700 8pt &quot;Segoe UI&quot;;
+    color: white;
+}
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>  CREATE YOUR ACCOUNT PIN:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>220</y>
+     <width>159</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+background-color:rgb(7, 179, 168);
+border-color: rgb(0, 0, 0);
+    font-size: 35px;
+  font: 700 9pt &quot;Segoe UI&quot;;
+    color: white;
+}
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>  ACCOUNT TYPE :</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>221</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(7, 179, 168);
+border-color: black;</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Current account</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Saving account</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>290</y>
+     <width>71</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(3, 148, 105);
+ font: 800 5pt &quot;Gill Sans&quot;;
+color:black;
+</string>
+   </property>
+   <property name="text">
+    <string>create account</string>
+   </property>
+  </widget>
+  <zorder>label_10</zorder>
+  <zorder>label_2</zorder>
+  <zorder>hblbanklogo</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>lineEdit_2</zorder>
+  <zorder>lineEdit_3</zorder>
+  <zorder>lineEdit_5</zorder>
+  <zorder>label_4</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label_7</zorder>
+  <zorder>comboBox</zorder>
+  <zorder>pushButton_2</zorder>
+ </widget>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

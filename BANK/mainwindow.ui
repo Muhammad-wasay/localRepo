@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>599</width>
+    <height>365</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>20</y>
+      <width>141</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+background-color:rgb(7, 179, 168);
+
+    font-size: 35px;
+    font: 800 14pt &quot;Gill Sans&quot;;
+    color: white;
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>  HBL BANK</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::TextFormat::PlainText</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="useraccount">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>80</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>18</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	border-color: rgb(0, 0, 0);
+background-color:rgb(7, 179, 168);
+    font-size: 35px;
+    font: 800 14pt &quot;Gill Sans&quot;;
+    color: white;
+}</string>
+    </property>
+    <property name="text">
+     <string>ENTER USER ACCOUNT </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addnewuser">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>80</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>21</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+background-color:rgb(7, 179, 168);
+
+    font-size: 35px;
+    font: 800 14pt &quot;Gill Sans&quot;;
+    color: white;
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>ADD NEW USER ACCOUNT </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exit">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>170</y>
+      <width>80</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+background-color:rgb(7, 179, 168);
+
+    font-size: 35px;
+    font: 800 14pt &quot;Gill Sans&quot;;
+    color: white;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>EXIT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="transfermoney">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>170</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+background-color:rgb(7, 179, 168);
+
+    font-size: 35px;
+    font: 800 14pt &quot;Gill Sans&quot;;
+    color: white;
+}
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>TRANSFER MONEY</string>
+    </property>
+   </widget>
+   <widget class="QStackedWidget" name="useraccountpage">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>160</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>2</number>
+    </property>
+    <widget class="QWidget" name="page">
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>10</y>
+        <width>131</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+background-color:rgb(7, 179, 168);
+
+    font-size: 35px;
+    font: 800 9pt &quot;Gill Sans&quot;;
+    color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>ENTER YOUR NAME:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>151</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+background-color:rgb(7, 179, 168);
+
+    font-size: 35px;
+    font: 800 9pt &quot;Gill Sans&quot;;
+    color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>CREATE YOUR ACCOUNT PIN:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>30</y>
+        <width>131</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+background-color:rgb(7, 179, 168);
+
+    font-size: 35px;
+    font: 800 9pt &quot;Gill Sans&quot;;
+    color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>ENTER YOUR EMAIL:</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_3"/>
+    <widget class="QWidget" name="page_2">
+     <widget class="QLabel" name="usernameneter">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>10</y>
+        <width>141</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+background-color:rgb(7, 179, 168);
+
+    font-size: 35px;
+    font: 800 9pt &quot;Gill Sans&quot;;
+    color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>ENTER USER NAME:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="accountnumber">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>40</y>
+        <width>171</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+background-color:rgb(7, 179, 168);
+
+    font-size: 35px;
+    font: 800 9pt &quot;Gill Sans&quot;;
+    color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>ENTER ACCOUNT NUMBER:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="accountpin">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>151</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+background-color:rgb(7, 179, 168);
+
+    font-size: 35px;
+    font: 800 9pt &quot;Gill Sans&quot;;
+    color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>ENTER ACCOUNT PIN :</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>280</y>
+      <width>37</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="images.qrc">:/images/HBL-Logo.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>-20</y>
+      <width>611</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 14pt &quot;Segoe UI&quot;;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="images.qrc">:/images/Screenshot 2025-03-19 202201 (1).png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>140</y>
+      <width>37</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(3, 148, 105);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="images.qrc">:/images/Screenshot 2025-03-20 010106.png</pixmap>
+    </property>
+   </widget>
+   <zorder>label_3</zorder>
+   <zorder>useraccountpage</zorder>
+   <zorder>label</zorder>
+   <zorder>useraccount</zorder>
+   <zorder>exit</zorder>
+   <zorder>transfermoney</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_7</zorder>
+   <zorder>addnewuser</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

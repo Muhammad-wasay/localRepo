@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/HBL-Logo-1-1024x1024.jpg</file>
+        <file>images/HBL-Logo.jpg</file>
+        <file>images/Screenshot 2025-03-19 202201.png</file>
+        <file>images/Screenshot 2025-03-19 202201 (1).png</file>
+        <file>images/Screenshot 2025-03-20 010106.png</file>
+    </qresource>
+</RCC>

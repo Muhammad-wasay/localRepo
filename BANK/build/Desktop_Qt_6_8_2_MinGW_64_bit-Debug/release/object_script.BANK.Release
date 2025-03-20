@@ -1,0 +1,10 @@
+release/addnewuser.o
+release/main.o
+release/mainwindow.o
+release/transfermoney.o
+release/useraccount.o
+release/qrc_images.o
+release/moc_addnewuser.o
+release/moc_mainwindow.o
+release/moc_transfermoney.o
+release/moc_useraccount.o

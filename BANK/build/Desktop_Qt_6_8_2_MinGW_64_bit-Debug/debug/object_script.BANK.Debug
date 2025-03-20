@@ -1,0 +1,10 @@
+debug/addnewuser.o
+debug/main.o
+debug/mainwindow.o
+debug/transfermoney.o
+debug/useraccount.o
+debug/qrc_images.o
+debug/moc_addnewuser.o
+debug/moc_mainwindow.o
+debug/moc_transfermoney.o
+debug/moc_useraccount.o
